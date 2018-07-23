@@ -1,0 +1,160 @@
+1>------ Build started: Project: TT_Training, Configuration: Debug Win32 ------
+1>Compiling...
+1>TT_Test.cpp
+1>d:\balaji\workspace\tt_training\tt_training\tt_test.cpp(112) : error C2662: 'TT_Main::ExectuteTest::Temp::get' : cannot convert 'this' pointer from 'const TT_Main::ExectuteTest::Temp' to 'TT_Main::ExectuteTest::Temp &'
+1>        Conversion loses qualifiers
+1>d:\balaji\workspace\tt_training\tt_training\tt_test.cpp(98) : error C2679: binary '<<' : no operator found which takes a right-hand operand of type 'void' (or there is no acceptable conversion)
+1>        d:\new folder\vc\include\ostream(653): could be 'std::basic_ostream<_Elem,_Traits> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,const char *)'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(700): or       'std::basic_ostream<_Elem,_Traits> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,char)'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(738): or       'std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,const char *)'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(785): or       'std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,char)'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(909): or       'std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,const signed char *)'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(916): or       'std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,signed char)'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(923): or       'std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,const unsigned char *)'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(930): or       'std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,unsigned char)'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(170): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(std::basic_ostream<_Elem,_Traits> &(__cdecl *)(std::basic_ostream<_Elem,_Traits> &))'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(176): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(std::basic_ios<_Elem,_Traits> &(__cdecl *)(std::basic_ios<_Elem,_Traits> &))'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(183): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(190): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(std::_Bool)'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(210): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(short)'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(243): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(unsigned short)'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(263): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(__w64 int)'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(288): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(__w64 unsigned int)'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(308): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(long)'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(328): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(__w64 unsigned long)'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(349): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(__int64)'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(369): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(unsigned __int64)'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(390): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(float)'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(410): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(double)'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(430): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(long double)'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(450): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(const void *)'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        d:\new folder\vc\include\ostream(470): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(std::basic_streambuf<_Elem,_Traits> *)'
+1>        with
+1>        [
+1>            _Elem=char,
+1>            _Traits=std::char_traits<char>
+1>        ]
+1>        while trying to match the argument list '(std::ostream, void)'
+1>Build log was saved at "file://d:\Balaji\Workspace\TT_Training\TT_Training\Debug\BuildLog.htm"
+1>TT_Training - 2 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
